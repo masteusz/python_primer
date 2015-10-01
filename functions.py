@@ -24,5 +24,5 @@ if __name__ == "__main__":
     print(add_one(5))
     print(add_one(1.22))
 
-    optional_argument([1,2,3])
-    optional_argument([1,2,3], "aaa!")
+    optional_argument([1, 2, 3])
+    optional_argument([1, 2, 3], "aaa!")

@@ -9,6 +9,12 @@ def defining_arrays():
     narr = np.array([[1, 2, 3], [3, 4, 5], [6, 7, 8]])
     print(narr)
 
+    # Getting one row
+    print(narr[0])
+
+    # Getting one element
+    print(narr[0][1])
+
     new_array = np.append(narr, [[9, 10, 11]], axis=0)
     print(new_array)
 

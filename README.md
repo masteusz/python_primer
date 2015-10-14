@@ -1,2 +1,2 @@
-# python_primer
+# Python Primer
 Example code for beginners

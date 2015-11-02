@@ -1,6 +1,7 @@
 def grep(pattern):
     print("Looking for", pattern)
     while True:
+        # What happens here?
         line = (yield)
         if pattern in line:
             print(line)
